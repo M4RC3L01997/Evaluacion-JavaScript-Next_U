@@ -201,4 +201,21 @@ var events = {
     }
 
 
-}	
+}
+//INICIAR MODULO
+var initialize = function(){
+    suscribirEventos();
+}
+
+//RETORNA METODO
+return {
+
+    init : initialize
+}
+
+
+
+})();
+
+
+calculadora.init();	
